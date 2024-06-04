@@ -1,0 +1,24 @@
+.delimitador {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+.contato {
+  background-color: #f7f7f7;
+}
+
+.contato-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.contato-detalhe {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+}

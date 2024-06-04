@@ -1,0 +1,117 @@
+.delimitador {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.introducao {
+  background-color: #f7f7f7;
+  padding-top: 75px;
+}
+.introducao button {
+  padding: 10px 40px;
+  font-size: 1.125rem;
+  font-weight: 400;
+  background-color: #fff;
+  border: 2px solid #f50400;
+  border-radius: 30px;
+  color: #f50400;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.introducao button:hover {
+  box-shadow: 0px 0px 8px #f50400;
+  background-color: #f50400;
+  color: #000;
+  font-weight: 500;
+  transform: scale(1.05);
+}
+
+.introducao h1 {
+  font-size: 4.5rem;
+  line-height: 1.125;
+  /* margin-bottom: 30px; */
+  position: relative;
+}
+
+.introducao h4 {
+  color: #f50400;
+}
+
+.introducao p {
+  font-size: 1.5rem;
+  color: #7a7a7a;
+  margin-bottom: 30px;
+}
+
+.introducao span {
+  color: #f50400;
+}
+
+.introducao svg {
+  position: relative;
+  left: 100%;
+  top: 100%;
+  margin-bottom: -80px;
+  animation: flutuar 1s ease-in-out infinite alternate;
+}
+@keyframes flutuar {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 7px;
+  }
+}
+
+@media (max-width: 800px) {
+  .delimitador {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .introducao h1 {
+    font-size: 3rem;
+  }
+
+  .introducao p {
+    font-size: 1.25rem;
+  }
+
+  .introducao button {
+    padding: 10px 30px;
+    font-size: 1rem;
+  }
+
+  .introducao svg {
+    position: static;
+    margin: 20px auto;
+    display: block;
+    animation: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao h1 {
+    font-size: 2.5rem;
+  }
+
+  .introducao p {
+    font-size: 1rem;
+  }
+
+  .introducao button {
+    padding: 10px 20px;
+    font-size: 0.875rem;
+  }
+
+  .introducao svg {
+    width: 30px;
+    height: 30px;
+  }
+}

@@ -1,0 +1,70 @@
+.projetos {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projetos-bg h2 {
+  text-align: center;
+  font-size: 2.875rem;
+  font-weight: 600;
+}
+
+.projetos-bg h2 span {
+  color: #f50400;
+}
+
+.projeto {
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.projeto > img {
+  width: 100%;
+  border: 1px solid #f50700;
+  border-radius: 10px;
+}
+
+.projeto h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.projeto h4 {
+  margin-bottom: 10px;
+}
+
+.projeto p {
+  color: #000;
+}
+
+.projeto .tech-icons {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.projeto .tech-icons img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .projeto {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .projecto {
+    width: 100%;
+  }
+}

@@ -21,6 +21,7 @@
 
 .projeto {
   background-color: #f7f7f7;
+  border: 1px solid #f50700;
   border-radius: 10px;
   padding: 20px;
   margin: 10px;
@@ -55,6 +56,10 @@
 .projeto .tech-icons img {
   width: 30px;
   margin-right: 10px;
+}
+
+.btn{
+  border: 1px solid #f50700;
 }
 
 @media (max-width: 768px) {
